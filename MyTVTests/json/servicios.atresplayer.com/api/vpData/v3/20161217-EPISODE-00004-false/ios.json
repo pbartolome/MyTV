@@ -1,0 +1,9 @@
+{
+  "result": 1,
+  "resultObject": {
+    "map": {
+      "midroll_interval": 720,
+      "min_seconds": 300
+    }
+  }
+}
