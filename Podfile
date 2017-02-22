@@ -8,6 +8,8 @@ target 'MyTV' do
 
   target 'MyTVTests' do
     inherit! :search_paths
+    pod 'OHHTTPStubs'
+    pod 'OHHTTPStubs/Swift'
   end
 
   # target 'MyTVUITests' do
