@@ -8,8 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		AF755B4ABF15E46224981769 /* Pods_MyTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF213BA567AE1126F48D5502 /* Pods_MyTVTests.framework */; };
+		D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */; };
+		D55CEED61E5FBA190067C506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED51E5FBA190067C506 /* Constants.swift */; };
+		D55CEED81E6092890067C506 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED71E6092890067C506 /* Live.swift */; };
+		D55CEEDA1E6092AE0067C506 /* Live+Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED91E6092AE0067C506 /* Live+Channels.swift */; };
+		D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */; };
+		D5658F3B1E5E73BE009C18CB /* TileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */; };
+		D5658F421E5E7C85009C18CB /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F411E5E7C85009C18CB /* Tile.swift */; };
+		D5658F441E5E7C8D009C18CB /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F431E5E7C8D009C18CB /* Season.swift */; };
+		D5658F461E5E7CBA009C18CB /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F451E5E7CBA009C18CB /* Show.swift */; };
+		D5658F481E5E7CC3009C18CB /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F471E5E7CC3009C18CB /* Episode.swift */; };
+		D5658F501E5E9CB6009C18CB /* TileRowCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F4F1E5E9CB6009C18CB /* TileRowCollection.swift */; };
+		D5658F521E5E9CC3009C18CB /* TileRowCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F511E5E9CC3009C18CB /* TileRowCollection.xib */; };
+		D57439C31E60C34D00E62F0C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57439C21E60C34D00E62F0C /* Section.swift */; };
+		D57439C51E60D1E200E62F0C /* LiveSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57439C41E60D1E200E62F0C /* LiveSection.swift */; };
+		D57439C81E611CC100E62F0C /* AtresmediaRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57439C71E611CC100E62F0C /* AtresmediaRequests.swift */; };
 		D5A2C9801E2ADE2B0071396A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C97F1E2ADE2B0071396A /* AppDelegate.swift */; };
-		D5A2C9821E2ADE2B0071396A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9811E2ADE2B0071396A /* ViewController.swift */; };
+		D5A2C9821E2ADE2B0071396A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9811E2ADE2B0071396A /* MainViewController.swift */; };
 		D5A2C9851E2ADE2B0071396A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9831E2ADE2B0071396A /* Main.storyboard */; };
 		D5A2C9871E2ADE2B0071396A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9861E2ADE2B0071396A /* Assets.xcassets */; };
 		D5A2C9921E2ADE2B0071396A /* MyTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911E2ADE2B0071396A /* MyTVTests.swift */; };
@@ -39,10 +54,25 @@
 /* Begin PBXFileReference section */
 		602C963CB4C43387FF2FE1BC /* Pods-MyTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTV/Pods-MyTV.debug.xcconfig"; sourceTree = "<group>"; };
 		BF213BA567AE1126F48D5502 /* Pods_MyTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaAPI.swift; path = A3M/AtresmediaAPI.swift; sourceTree = "<group>"; };
+		D55CEED51E5FBA190067C506 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D55CEED71E6092890067C506 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		D55CEED91E6092AE0067C506 /* Live+Channels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Live+Channels.swift"; sourceTree = "<group>"; };
 		D55DE6B3E6B4FB0837446E68 /* Pods_MyTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileCollectionViewCell.swift; path = UI/TileCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileCollectionViewCell.xib; path = UI/TileCollectionViewCell.xib; sourceTree = "<group>"; };
+		D5658F411E5E7C85009C18CB /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		D5658F431E5E7C8D009C18CB /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		D5658F451E5E7CBA009C18CB /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		D5658F471E5E7CC3009C18CB /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		D5658F4F1E5E9CB6009C18CB /* TileRowCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileRowCollection.swift; path = UI/TileRowCollection.swift; sourceTree = "<group>"; };
+		D5658F511E5E9CC3009C18CB /* TileRowCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileRowCollection.xib; path = UI/TileRowCollection.xib; sourceTree = "<group>"; };
+		D57439C21E60C34D00E62F0C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D57439C41E60D1E200E62F0C /* LiveSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveSection.swift; sourceTree = "<group>"; };
+		D57439C71E611CC100E62F0C /* AtresmediaRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaRequests.swift; path = A3M/AtresmediaRequests.swift; sourceTree = "<group>"; };
 		D5A2C97C1E2ADE2B0071396A /* MyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2C97F1E2ADE2B0071396A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5A2C9811E2ADE2B0071396A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5A2C9811E2ADE2B0071396A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D5A2C9841E2ADE2B0071396A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5A2C9861E2ADE2B0071396A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A2C9881E2ADE2B0071396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +136,49 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D5658F371E5E6EC1009C18CB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */,
+				D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */,
+				D5658F4F1E5E9CB6009C18CB /* TileRowCollection.swift */,
+				D5658F511E5E9CC3009C18CB /* TileRowCollection.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D5658F401E5E7C63009C18CB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D57439C21E60C34D00E62F0C /* Section.swift */,
+				D5658F411E5E7C85009C18CB /* Tile.swift */,
+				D5658F431E5E7C8D009C18CB /* Season.swift */,
+				D5658F451E5E7CBA009C18CB /* Show.swift */,
+				D5658F471E5E7CC3009C18CB /* Episode.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D5658F4A1E5E7D70009C18CB /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				D57439C61E61173B00E62F0C /* A3M */,
+				D55CEED71E6092890067C506 /* Live.swift */,
+				D55CEED91E6092AE0067C506 /* Live+Channels.swift */,
+				D57439C41E60D1E200E62F0C /* LiveSection.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		D57439C61E61173B00E62F0C /* A3M */ = {
+			isa = PBXGroup;
+			children = (
+				D57439C71E611CC100E62F0C /* AtresmediaRequests.swift */,
+				D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */,
+			);
+			name = A3M;
+			sourceTree = "<group>";
+		};
 		D5A2C9731E2ADE2B0071396A = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +204,16 @@
 		D5A2C97E1E2ADE2B0071396A /* MyTV */ = {
 			isa = PBXGroup;
 			children = (
+				D5658F4A1E5E7D70009C18CB /* Providers */,
+				D5658F401E5E7C63009C18CB /* Protocols */,
+				D5658F371E5E6EC1009C18CB /* UI */,
 				D5A2C97F1E2ADE2B0071396A /* AppDelegate.swift */,
-				D5A2C9811E2ADE2B0071396A /* ViewController.swift */,
+				D5A2C9811E2ADE2B0071396A /* MainViewController.swift */,
 				D5A2C9831E2ADE2B0071396A /* Main.storyboard */,
 				D5A2C9861E2ADE2B0071396A /* Assets.xcassets */,
 				D5A2C9881E2ADE2B0071396A /* Info.plist */,
 				D5C77C911E5E020900A9079D /* PlayerViewController.swift */,
+				D55CEED51E5FBA190067C506 /* Constants.swift */,
 			);
 			path = MyTV;
 			sourceTree = "<group>";
@@ -276,7 +353,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5658F3B1E5E73BE009C18CB /* TileCollectionViewCell.xib in Resources */,
 				D5A2C9871E2ADE2B0071396A /* Assets.xcassets in Resources */,
+				D5658F521E5E9CC3009C18CB /* TileRowCollection.xib in Resources */,
 				D5A2C9851E2ADE2B0071396A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,9 +474,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A2C9821E2ADE2B0071396A /* ViewController.swift in Sources */,
+				D57439C81E611CC100E62F0C /* AtresmediaRequests.swift in Sources */,
+				D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */,
+				D55CEEDA1E6092AE0067C506 /* Live+Channels.swift in Sources */,
+				D5A2C9821E2ADE2B0071396A /* MainViewController.swift in Sources */,
 				D5A2C9801E2ADE2B0071396A /* AppDelegate.swift in Sources */,
+				D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */,
+				D5658F421E5E7C85009C18CB /* Tile.swift in Sources */,
+				D55CEED81E6092890067C506 /* Live.swift in Sources */,
+				D5658F501E5E9CB6009C18CB /* TileRowCollection.swift in Sources */,
+				D57439C31E60C34D00E62F0C /* Section.swift in Sources */,
+				D5658F441E5E7C8D009C18CB /* Season.swift in Sources */,
+				D57439C51E60D1E200E62F0C /* LiveSection.swift in Sources */,
+				D5658F461E5E7CBA009C18CB /* Show.swift in Sources */,
+				D5658F481E5E7CC3009C18CB /* Episode.swift in Sources */,
 				D5C77C921E5E020900A9079D /* PlayerViewController.swift in Sources */,
+				D55CEED61E5FBA190067C506 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
