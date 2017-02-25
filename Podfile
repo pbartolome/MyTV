@@ -5,6 +5,7 @@ target 'MyTV' do
 
   pod 'Unbox'
   pod 'Alamofire'
+  pod 'IDZSwiftCommonCrypto'
 
   target 'MyTVTests' do
     inherit! :search_paths
