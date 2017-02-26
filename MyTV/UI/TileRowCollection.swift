@@ -29,10 +29,14 @@ class TileRowCollection: UITableViewCell {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.clipsToBounds = false
+        configureLayout(collectionView: collectionView)
+    }
 
+    private func configureLayout(collectionView: UICollectionView) {
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         layout.itemSize = CGSize(width: UIConstant.tileWidth, height: UIConstant.rowHeight)
         layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = UIConstant.minimumLineSpacing
     }
 
     func configure(tiles: [Tile]) {

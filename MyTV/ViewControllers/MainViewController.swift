@@ -20,6 +20,15 @@ class MainViewController: UITableViewController {
 
         sections.append(LiveSection())
 
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return UIConstant.rowHeaderHeight
+    }
+
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let label = UILabel()
+        label.text = sections[section].title
+        label.font = UIFont.boldSystemFont(ofSize: UIConstant.titleFontSize)
+        return label
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -9,6 +9,9 @@
 import UIKit
 
 struct UIConstant {
+    static let rowHeaderHeight: CGFloat = 50
+    static let minimumLineSpacing: CGFloat = 50
     static let rowHeight: CGFloat = 270
     static let tileWidth: CGFloat = 340
+    static let titleFontSize: CGFloat = 25
 }

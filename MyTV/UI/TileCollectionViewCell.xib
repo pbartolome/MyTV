@@ -25,8 +25,8 @@
                             <constraint firstAttribute="width" secondItem="jOR-Ry-LDB" secondAttribute="height" multiplier="1.77:1" id="oYw-xM-wbC"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94I-rg-t7E">
-                        <rect key="frame" x="192" y="261" width="42" height="13"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94I-rg-t7E">
+                        <rect key="frame" x="20" y="261" width="386" height="13"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -36,10 +36,11 @@
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="jOR-Ry-LDB" secondAttribute="trailing" id="0ND-w1-QEg"/>
                 <constraint firstItem="jOR-Ry-LDB" firstAttribute="leading" secondItem="mCz-bA-gnu" secondAttribute="leading" id="2it-zt-NFO"/>
+                <constraint firstItem="94I-rg-t7E" firstAttribute="leading" secondItem="mCz-bA-gnu" secondAttribute="leading" constant="20" id="H8u-c4-IM4"/>
                 <constraint firstAttribute="bottom" secondItem="94I-rg-t7E" secondAttribute="bottom" constant="20" id="Hgf-3I-r25"/>
                 <constraint firstItem="jOR-Ry-LDB" firstAttribute="top" secondItem="mCz-bA-gnu" secondAttribute="top" id="KCb-EA-hxg"/>
                 <constraint firstItem="94I-rg-t7E" firstAttribute="top" secondItem="jOR-Ry-LDB" secondAttribute="bottom" constant="20" id="LNQ-EF-jPe"/>
-                <constraint firstItem="94I-rg-t7E" firstAttribute="centerX" secondItem="jOR-Ry-LDB" secondAttribute="centerX" id="f4s-AD-Xoz"/>
+                <constraint firstAttribute="trailing" secondItem="94I-rg-t7E" secondAttribute="trailing" constant="20" id="bFy-uH-us7"/>
             </constraints>
             <size key="customSize" width="426" height="294"/>
             <connections>
