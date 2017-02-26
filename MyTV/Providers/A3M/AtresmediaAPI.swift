@@ -21,7 +21,7 @@ struct AtresmediaAPI {
 
     struct Item: Unboxable {
         let episode: Episode?
-        let section: Dictionary<String, Any>?
+        let section: Section?
 
         init(unboxer: Unboxer) throws {
             self.episode = unboxer.unbox(key: "episode")
@@ -31,14 +31,26 @@ struct AtresmediaAPI {
 
     struct Episode: Unboxable {
         let title: String
-        let description: String?
+        let description: String
         let contentPk: String
         let urlImage: String
 
         init(unboxer: Unboxer) throws {
             self.title = try unboxer.unbox(key: "name")
-            self.description = unboxer.unbox(key: "storyline")
+            self.description = try unboxer.unbox(key: "storyline")
             self.contentPk = try unboxer.unbox(key: "contentPk")
+            self.urlImage = try unboxer.unbox(key: "urlImage")
+        }
+    }
+
+    struct Section: Unboxable {
+        let title: String
+        let description: String
+        let urlImage: String
+
+        init(unboxer: Unboxer) throws {
+            self.title = try unboxer.unbox(key: "name")
+            self.description = try unboxer.unbox(key: "storyline")
             self.urlImage = try unboxer.unbox(key: "urlImage")
         }
     }

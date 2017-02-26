@@ -15,9 +15,6 @@
 		D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */; };
 		D5658F3B1E5E73BE009C18CB /* TileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */; };
 		D5658F421E5E7C85009C18CB /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F411E5E7C85009C18CB /* Tile.swift */; };
-		D5658F441E5E7C8D009C18CB /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F431E5E7C8D009C18CB /* Season.swift */; };
-		D5658F461E5E7CBA009C18CB /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F451E5E7CBA009C18CB /* Show.swift */; };
-		D5658F481E5E7CC3009C18CB /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F471E5E7CC3009C18CB /* Episode.swift */; };
 		D5658F501E5E9CB6009C18CB /* TileRowCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F4F1E5E9CB6009C18CB /* TileRowCollection.swift */; };
 		D5658F521E5E9CC3009C18CB /* TileRowCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F511E5E9CC3009C18CB /* TileRowCollection.xib */; };
 		D57439C31E60C34D00E62F0C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57439C21E60C34D00E62F0C /* Section.swift */; };
@@ -62,9 +59,6 @@
 		D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileCollectionViewCell.swift; path = UI/TileCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileCollectionViewCell.xib; path = UI/TileCollectionViewCell.xib; sourceTree = "<group>"; };
 		D5658F411E5E7C85009C18CB /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		D5658F431E5E7C8D009C18CB /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
-		D5658F451E5E7CBA009C18CB /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
-		D5658F471E5E7CC3009C18CB /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		D5658F4F1E5E9CB6009C18CB /* TileRowCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileRowCollection.swift; path = UI/TileRowCollection.swift; sourceTree = "<group>"; };
 		D5658F511E5E9CC3009C18CB /* TileRowCollection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileRowCollection.xib; path = UI/TileRowCollection.xib; sourceTree = "<group>"; };
 		D57439C21E60C34D00E62F0C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -152,9 +146,6 @@
 			children = (
 				D57439C21E60C34D00E62F0C /* Section.swift */,
 				D5658F411E5E7C85009C18CB /* Tile.swift */,
-				D5658F431E5E7C8D009C18CB /* Season.swift */,
-				D5658F451E5E7CBA009C18CB /* Show.swift */,
-				D5658F471E5E7CC3009C18CB /* Episode.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -204,15 +195,14 @@
 		D5A2C97E1E2ADE2B0071396A /* MyTV */ = {
 			isa = PBXGroup;
 			children = (
+				D5C99D9A1E6216BE00D22953 /* ViewControllers */,
 				D5658F4A1E5E7D70009C18CB /* Providers */,
 				D5658F401E5E7C63009C18CB /* Protocols */,
 				D5658F371E5E6EC1009C18CB /* UI */,
 				D5A2C97F1E2ADE2B0071396A /* AppDelegate.swift */,
-				D5A2C9811E2ADE2B0071396A /* MainViewController.swift */,
 				D5A2C9831E2ADE2B0071396A /* Main.storyboard */,
 				D5A2C9861E2ADE2B0071396A /* Assets.xcassets */,
 				D5A2C9881E2ADE2B0071396A /* Info.plist */,
-				D5C77C911E5E020900A9079D /* PlayerViewController.swift */,
 				D55CEED51E5FBA190067C506 /* Constants.swift */,
 			);
 			path = MyTV;
@@ -235,6 +225,15 @@
 				D5A2C99E1E2ADE2B0071396A /* Info.plist */,
 			);
 			path = MyTVUITests;
+			sourceTree = "<group>";
+		};
+		D5C99D9A1E6216BE00D22953 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2C9811E2ADE2B0071396A /* MainViewController.swift */,
+				D5C77C911E5E020900A9079D /* PlayerViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,10 +483,7 @@
 				D55CEED81E6092890067C506 /* Live.swift in Sources */,
 				D5658F501E5E9CB6009C18CB /* TileRowCollection.swift in Sources */,
 				D57439C31E60C34D00E62F0C /* Section.swift in Sources */,
-				D5658F441E5E7C8D009C18CB /* Season.swift in Sources */,
 				D57439C51E60D1E200E62F0C /* LiveSection.swift in Sources */,
-				D5658F461E5E7CBA009C18CB /* Show.swift in Sources */,
-				D5658F481E5E7CC3009C18CB /* Episode.swift in Sources */,
 				D5C77C921E5E020900A9079D /* PlayerViewController.swift in Sources */,
 				D55CEED61E5FBA190067C506 /* Constants.swift in Sources */,
 			);

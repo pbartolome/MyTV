@@ -19,6 +19,7 @@ class MainViewController: UITableViewController {
         tableView.register(nib, forCellReuseIdentifier: TileRowCollection.reuseIdentifier)
 
         sections.append(LiveSection())
+
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
