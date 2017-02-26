@@ -130,6 +130,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D54FC27A1E635F3200C4854E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D55CEED71E6092890067C506 /* Live.swift */,
+				D55CEED91E6092AE0067C506 /* Live+Channels.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
 		D5658F371E5E6EC1009C18CB /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,9 +162,8 @@
 		D5658F4A1E5E7D70009C18CB /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				D54FC27A1E635F3200C4854E /* Live */,
 				D57439C61E61173B00E62F0C /* A3M */,
-				D55CEED71E6092890067C506 /* Live.swift */,
-				D55CEED91E6092AE0067C506 /* Live+Channels.swift */,
 			);
 			path = Providers;
 			sourceTree = "<group>";
