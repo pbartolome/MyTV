@@ -11,7 +11,7 @@ import UIKit
 protocol Tile {
     var title: String { get }
     var description: String { get }
-    var image: UIImage { get }
+    var urlImage: String { get }
 
     func actionHandler(presenter: UIViewController)
 }

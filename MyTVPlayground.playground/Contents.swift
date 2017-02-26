@@ -1,6 +1,5 @@
 //: Playground - noun: a place where people can play
 
-
 import IDZSwiftCommonCrypto
 
 let contentPk = "20161217-EPISODE-00004-false"

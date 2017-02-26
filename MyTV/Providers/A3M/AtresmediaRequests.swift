@@ -23,7 +23,7 @@ struct AtresmediaURL {
 
 struct AtresmediaRequests {
 
-    static func createSession(username: String, password: String, completion: @escaping (Void) -> (Void)) {
+    static func createSession(username: String, password: String, completion: @escaping (Void) -> Void) {
         let parameters = ["j_username": username, "j_password": password]
         Alamofire.request(AtresmediaURL.createSession, method: .post, parameters: parameters).responseString { response in
             if response.result.isSuccess {

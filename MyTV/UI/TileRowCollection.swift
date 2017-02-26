@@ -71,7 +71,7 @@ extension TileRowCollection: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let tile = tiles[indexPath.row]
         let cell: TileCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: TileCollectionViewCell.reuseIdentifier, for: indexPath) as! TileCollectionViewCell
-        cell.configureCell(title: tile.title, image: tile.image)
+        cell.configureCell(title: tile.title, imageURL: tile.urlImage)
         return cell
     }
 }

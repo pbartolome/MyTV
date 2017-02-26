@@ -12,9 +12,9 @@ import Foundation
 /// Sections are displayed on the main screen
 /// They contain an array of tiles and a title
 
-protocol Section {
+struct Section {
 
-    var title: String { get }
-    var tiles: [Tile] { get }
+    let title: String
+    let tiles: [Tile]
 
 }

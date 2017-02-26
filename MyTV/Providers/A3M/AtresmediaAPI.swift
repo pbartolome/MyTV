@@ -39,7 +39,7 @@ struct AtresmediaAPI {
             self.title = try unboxer.unbox(key: "name")
             self.description = try unboxer.unbox(key: "storyline")
             self.contentPk = try unboxer.unbox(key: "contentPk")
-            self.urlImage = try unboxer.unbox(key: "urlImage")
+            self.urlImage = AtresmediaAPI.toHDurlImage(urlImage: try unboxer.unbox(key: "urlImage"))
         }
     }
 
@@ -51,7 +51,7 @@ struct AtresmediaAPI {
         init(unboxer: Unboxer) throws {
             self.title = try unboxer.unbox(key: "name")
             self.description = try unboxer.unbox(key: "storyline")
-            self.urlImage = try unboxer.unbox(key: "urlImage")
+            self.urlImage = AtresmediaAPI.toHDurlImage(urlImage: try unboxer.unbox(key: "urlImage"))
         }
     }
 
@@ -69,6 +69,10 @@ struct AtresmediaAPI {
         init(unboxer: Unboxer) throws {
             self.url = try unboxer.unbox(keyPath: "resultObject.es")
         }
+    }
+
+    static func toHDurlImage(urlImage: String) -> String {
+        return urlImage.replacingOccurrences(of: "/7.jpg", with: "/709.jpg")
     }
 
 }

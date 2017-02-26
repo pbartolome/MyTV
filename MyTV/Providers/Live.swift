@@ -8,11 +8,11 @@
 
 import UIKit
 
-struct Live: Episode {
+struct Live: Tile {
 
     let title: String
     let description: String
-    let image: UIImage
+    let urlImage: String
     let url: String
 
     func actionHandler(presenter: UIViewController) {
