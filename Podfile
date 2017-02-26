@@ -7,7 +7,8 @@ target 'MyTV' do
   pod 'Alamofire'
   pod 'AlamofireImage'
   pod 'IDZSwiftCommonCrypto'
-
+  pod 'Kanna'
+  
   target 'MyTVTests' do
     inherit! :search_paths
     pod 'OHHTTPStubs'
