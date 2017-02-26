@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.3.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
   - IDZSwiftCommonCrypto (0.9.0)
   - OHHTTPStubs (5.2.3):
     - OHHTTPStubs/Default (= 5.2.3)
@@ -20,6 +22,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - IDZSwiftCommonCrypto
   - OHHTTPStubs
   - OHHTTPStubs/Swift
@@ -27,10 +30,11 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
   IDZSwiftCommonCrypto: 60f14492730da20117ce5875b890c7a6fc38ab8c
   OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
   Unbox: 96e54c15284b97244a1daf8ea560f648dd08f0db
 
-PODFILE CHECKSUM: c87317056ddc245b09fee53140dd4eca7eaf5f31
+PODFILE CHECKSUM: d02bdedd822bae70965f47443d4e04cff0dd761f
 
 COCOAPODS: 1.1.1
