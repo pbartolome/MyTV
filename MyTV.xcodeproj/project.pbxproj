@@ -17,8 +17,8 @@
 		D55587341E63E47A00122B96 /* RTVERequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55587331E63E47A00122B96 /* RTVERequestsTests.swift */; };
 		D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */; };
 		D55CEED61E5FBA190067C506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED51E5FBA190067C506 /* Constants.swift */; };
-		D55CEED81E6092890067C506 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED71E6092890067C506 /* Live.swift */; };
-		D55CEEDA1E6092AE0067C506 /* Live+Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED91E6092AE0067C506 /* Live+Channels.swift */; };
+		D55CEED81E6092890067C506 /* LiveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED71E6092890067C506 /* LiveAPI.swift */; };
+		D55CEEDA1E6092AE0067C506 /* LiveRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED91E6092AE0067C506 /* LiveRequests.swift */; };
 		D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */; };
 		D5658F3B1E5E73BE009C18CB /* TileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */; };
 		D5658F421E5E7C85009C18CB /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F411E5E7C85009C18CB /* Tile.swift */; };
@@ -65,8 +65,8 @@
 		D55587331E63E47A00122B96 /* RTVERequestsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVERequestsTests.swift; path = Providers/RTVE/RTVERequestsTests.swift; sourceTree = "<group>"; };
 		D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaAPI.swift; path = A3M/AtresmediaAPI.swift; sourceTree = "<group>"; };
 		D55CEED51E5FBA190067C506 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D55CEED71E6092890067C506 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
-		D55CEED91E6092AE0067C506 /* Live+Channels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Live+Channels.swift"; sourceTree = "<group>"; };
+		D55CEED71E6092890067C506 /* LiveAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveAPI.swift; sourceTree = "<group>"; };
+		D55CEED91E6092AE0067C506 /* LiveRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveRequests.swift; sourceTree = "<group>"; };
 		D55DE6B3E6B4FB0837446E68 /* Pods_MyTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileCollectionViewCell.swift; path = UI/TileCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileCollectionViewCell.xib; path = UI/TileCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 		D54FC27A1E635F3200C4854E /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				D55CEED71E6092890067C506 /* Live.swift */,
-				D55CEED91E6092AE0067C506 /* Live+Channels.swift */,
+				D55CEED71E6092890067C506 /* LiveAPI.swift */,
+				D55CEED91E6092AE0067C506 /* LiveRequests.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -546,7 +546,7 @@
 			files = (
 				D57439C81E611CC100E62F0C /* AtresmediaRequests.swift in Sources */,
 				D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */,
-				D55CEEDA1E6092AE0067C506 /* Live+Channels.swift in Sources */,
+				D55CEEDA1E6092AE0067C506 /* LiveRequests.swift in Sources */,
 				D53999D81E63A2FE00C63630 /* RTVEAPI.swift in Sources */,
 				D53999DA1E63A38700C63630 /* RTVERequests.swift in Sources */,
 				D5A2C9821E2ADE2B0071396A /* MainViewController.swift in Sources */,
@@ -554,7 +554,7 @@
 				D53999DD1E63BC2D00C63630 /* Utils.swift in Sources */,
 				D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */,
 				D5658F421E5E7C85009C18CB /* Tile.swift in Sources */,
-				D55CEED81E6092890067C506 /* Live.swift in Sources */,
+				D55CEED81E6092890067C506 /* LiveAPI.swift in Sources */,
 				D5658F501E5E9CB6009C18CB /* TileRowCollection.swift in Sources */,
 				D57439C31E60C34D00E62F0C /* Section.swift in Sources */,
 				D5C77C921E5E020900A9079D /* PlayerViewController.swift in Sources */,
