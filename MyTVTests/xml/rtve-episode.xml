@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quality>
+   <preset order="0" type="HQ">
+      <response code="ok" geolocalizado="false" GMTEnabled="" GMTDisabled="">
+         <url tipo="" provider="AKAMAI-2770">http://hlsvod.lvlt.rtve.es/resources/TE_NGVA/mp4/2/8/1488181725582.mp4/playlist.m3u8</url>
+         <url tipo="" provider="AKAMAI-3392">http://hlsvod.akcdn.rtve.es/resources/TE_NGVA/mp4/2/8/1488181725582.mp4/playlist.m3u8</url>
+         <url tipo="" provider="AKAMAI_STR-10">http://mvod.lvlt.rtve.es/resources/TE_NGVA/mp4/2/8/1488181725582.mp4</url>
+      </response>
+   </preset>
+   <preset order="1" type="Alta">
+      <response code="ok" geolocalizado="false" GMTEnabled="" GMTDisabled="">
+         <url tipo="" provider="AKAMAI-2770">http://hlsvod.lvlt.rtve.es/resources/TE_NGVA/mp4/7/3/1488181696837.mp4/playlist.m3u8</url>
+         <url tipo="" provider="AKAMAI-3392">http://hlsvod.akcdn.rtve.es/resources/TE_NGVA/mp4/7/3/1488181696837.mp4/playlist.m3u8</url>
+         <url tipo="" provider="AKAMAI_STR-10">http://mvod.lvlt.rtve.es/resources/TE_NGVA/mp4/7/3/1488181696837.mp4</url>
+      </response>
+   </preset>
+   <preset order="2" type="Media">
+      <response code="ok" geolocalizado="false" GMTEnabled="" GMTDisabled="">
+         <url tipo="" provider="AKAMAI_STR-10">http://mvod.lvlt.rtve.es/resources/TE_NGVA/mp4/0/4/1488181708340.mp4</url>
+         <url tipo="" provider="AKAMAI-2290">http://flash1.akamaihd.net.rtve.es/resources/TE_NGVA/mp4/0/4/1488181708340.mp4</url>
+      </response>
+   </preset>
+</quality>

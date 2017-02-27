@@ -15,6 +15,10 @@ extension RTVEAPI.Item: Tile {
     }
 
     func actionHandler(presenter: UIViewController) {
-
+        RTVERequests.videoURL(websiteURL: link) { url in
+            let player = PlayerViewController()
+            player.play(url: url)
+            presenter.present(player, animated: true, completion: nil)
+        }
     }
 }

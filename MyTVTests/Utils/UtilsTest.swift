@@ -26,13 +26,13 @@ class UtilsTests: XCTestCase {
 
     func testRemovingMatches() {
         let string: String = "http://img.rtve.es/i/?w=309&crop=no&o=no&i=1488101760364.jpg"
-        let decoded = try! string.removingMatches(pattern: "\\w=\\d+&")
+        let decoded = string.removingMatches(pattern: "\\w=\\d+&")
         XCTAssertEqual(decoded, "http://img.rtve.es/i/?crop=no&o=no&i=1488101760364.jpg")
     }
 
     func testRemovingMultipleMatches() {
         let string: String = "http://img.rtve.es/i/?w=309&crop=no&o=no&i=1488101760364.jpg"
-        let decoded = try! string.removingMatches(pattern: "\\w=\\d+&").removingMatches(pattern: "crop=\\w+&").removingMatches(pattern: "o=\\w+&")
+        let decoded = string.removingMatches(pattern: "\\w=\\d+&").removingMatches(pattern: "crop=\\w+&").removingMatches(pattern: "o=\\w+&")
         XCTAssertEqual(decoded, "http://img.rtve.es/i/?i=1488101760364.jpg")
     }
 
