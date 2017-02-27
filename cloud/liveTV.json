@@ -1,0 +1,47 @@
+{
+  "tiles": [
+    {
+      "description": "",
+      "title": "TVE1",
+      "url": "http://hlsackdn_gl7-lh.akamaihd.net/i/hlslive_1@439316/master.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "La 2",
+      "url": "http://hlsackdn_gl0-lh.akamaihd.net/i/hlslive_1@439422/master.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "Antena 3",
+      "url": "http://a3live-lh.akamaihd.net/i/antena3/antena3_1@35248/master.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "La Sexta",
+      "url": "http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "Telemadrid",
+      "url": "http://telemadrid-live.hls.adaptive.level3.net/hls-live/telemadrid-telemadridbis/_definst_/live.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "Canal 24h",
+      "url": "http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8",
+      "urlImage": ""
+    },
+    {
+      "description": "",
+      "title": "Teledeporte",
+      "url": "http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl1-tdplv3aomgl1/_definst_/live.m3u8",
+      "urlImage": ""
+    }
+  ],
+  "title": "Live"
+}
