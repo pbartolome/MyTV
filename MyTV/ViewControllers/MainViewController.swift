@@ -18,7 +18,8 @@ class MainViewController: UITableViewController {
         let nib = UINib(nibName: TileRowCollection.reuseIdentifier, bundle: Bundle.main)
         tableView.register(nib, forCellReuseIdentifier: TileRowCollection.reuseIdentifier)
 
-        sections.append(LiveSection())
+
+    }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return UIConstant.rowHeaderHeight

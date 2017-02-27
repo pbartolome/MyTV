@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AF755B4ABF15E46224981769 /* Pods_MyTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF213BA567AE1126F48D5502 /* Pods_MyTVTests.framework */; };
+		D53999D81E63A2FE00C63630 /* RTVEAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999D71E63A2FE00C63630 /* RTVEAPI.swift */; };
+		D53999DA1E63A38700C63630 /* RTVERequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999D91E63A38700C63630 /* RTVERequests.swift */; };
+		D53999DD1E63BC2D00C63630 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999DC1E63BC2D00C63630 /* Utils.swift */; };
+		D53999E01E63BF2A00C63630 /* UtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999DF1E63BF2A00C63630 /* UtilsTest.swift */; };
+		D53999E21E63CC2100C63630 /* RTVEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999E11E63CC2100C63630 /* RTVEHandler.swift */; };
 		D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */; };
 		D55CEED61E5FBA190067C506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED51E5FBA190067C506 /* Constants.swift */; };
 		D55CEED81E6092890067C506 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED71E6092890067C506 /* Live.swift */; };
@@ -23,10 +28,8 @@
 		D5A2C9821E2ADE2B0071396A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9811E2ADE2B0071396A /* MainViewController.swift */; };
 		D5A2C9851E2ADE2B0071396A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9831E2ADE2B0071396A /* Main.storyboard */; };
 		D5A2C9871E2ADE2B0071396A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A2C9861E2ADE2B0071396A /* Assets.xcassets */; };
-		D5A2C9921E2ADE2B0071396A /* MyTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C9911E2ADE2B0071396A /* MyTVTests.swift */; };
 		D5A2C99D1E2ADE2B0071396A /* MyTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2C99C1E2ADE2B0071396A /* MyTVUITests.swift */; };
 		D5C77C921E5E020900A9079D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C77C911E5E020900A9079D /* PlayerViewController.swift */; };
-		D5C77C941E5E021900A9079D /* PlayerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C77C931E5E021900A9079D /* PlayerViewControllerTests.swift */; };
 		D5C99D9C1E626F3200D22953 /* AtresmediaHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C99D9B1E626F3200D22953 /* AtresmediaHandler.swift */; };
 		D6AEB4D6BEAB2D7C6B4A362A /* Pods_MyTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55DE6B3E6B4FB0837446E68 /* Pods_MyTV.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +54,11 @@
 /* Begin PBXFileReference section */
 		602C963CB4C43387FF2FE1BC /* Pods-MyTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTV/Pods-MyTV.debug.xcconfig"; sourceTree = "<group>"; };
 		BF213BA567AE1126F48D5502 /* Pods_MyTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53999D71E63A2FE00C63630 /* RTVEAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVEAPI.swift; path = RTVE/RTVEAPI.swift; sourceTree = "<group>"; };
+		D53999D91E63A38700C63630 /* RTVERequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVERequests.swift; path = RTVE/RTVERequests.swift; sourceTree = "<group>"; };
+		D53999DC1E63BC2D00C63630 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = "<group>"; };
+		D53999DF1E63BF2A00C63630 /* UtilsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilsTest.swift; path = Utils/UtilsTest.swift; sourceTree = "<group>"; };
+		D53999E11E63CC2100C63630 /* RTVEHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVEHandler.swift; path = RTVE/RTVEHandler.swift; sourceTree = "<group>"; };
 		D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaAPI.swift; path = A3M/AtresmediaAPI.swift; sourceTree = "<group>"; };
 		D55CEED51E5FBA190067C506 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D55CEED71E6092890067C506 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
@@ -70,13 +78,11 @@
 		D5A2C9861E2ADE2B0071396A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A2C9881E2ADE2B0071396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A2C98D1E2ADE2B0071396A /* MyTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A2C9911E2ADE2B0071396A /* MyTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTVTests.swift; sourceTree = "<group>"; };
 		D5A2C9931E2ADE2B0071396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A2C9981E2ADE2B0071396A /* MyTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A2C99C1E2ADE2B0071396A /* MyTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTVUITests.swift; sourceTree = "<group>"; };
 		D5A2C99E1E2ADE2B0071396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C77C911E5E020900A9079D /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		D5C77C931E5E021900A9079D /* PlayerViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewControllerTests.swift; sourceTree = "<group>"; };
 		D5C99D9B1E626F3200D22953 /* AtresmediaHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaHandler.swift; path = A3M/AtresmediaHandler.swift; sourceTree = "<group>"; };
 		E32762088CF563BE39A08F05 /* Pods-MyTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTV/Pods-MyTV.release.xcconfig"; sourceTree = "<group>"; };
 		E365DE2CF23DDE421AF949EB /* Pods-MyTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTVTests/Pods-MyTVTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +136,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D53999DB1E63BC1800C63630 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D53999DC1E63BC2D00C63630 /* Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D53999DE1E63BF1100C63630 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D53999DF1E63BF2A00C63630 /* UtilsTest.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		D54FC27A1E635F3200C4854E /* Live */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +159,16 @@
 				D55CEED91E6092AE0067C506 /* Live+Channels.swift */,
 			);
 			path = Live;
+			sourceTree = "<group>";
+		};
+		D54FC27B1E6360D400C4854E /* RTVE */ = {
+			isa = PBXGroup;
+			children = (
+				D53999D71E63A2FE00C63630 /* RTVEAPI.swift */,
+				D53999D91E63A38700C63630 /* RTVERequests.swift */,
+				D53999E11E63CC2100C63630 /* RTVEHandler.swift */,
+			);
+			name = RTVE;
 			sourceTree = "<group>";
 		};
 		D5658F371E5E6EC1009C18CB /* UI */ = {
@@ -162,6 +194,7 @@
 		D5658F4A1E5E7D70009C18CB /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				D54FC27B1E6360D400C4854E /* RTVE */,
 				D54FC27A1E635F3200C4854E /* Live */,
 				D57439C61E61173B00E62F0C /* A3M */,
 			);
@@ -203,6 +236,7 @@
 		D5A2C97E1E2ADE2B0071396A /* MyTV */ = {
 			isa = PBXGroup;
 			children = (
+				D53999DB1E63BC1800C63630 /* Utils */,
 				D5C99D9A1E6216BE00D22953 /* ViewControllers */,
 				D5658F4A1E5E7D70009C18CB /* Providers */,
 				D5658F401E5E7C63009C18CB /* Protocols */,
@@ -219,9 +253,8 @@
 		D5A2C9901E2ADE2B0071396A /* MyTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				D5A2C9911E2ADE2B0071396A /* MyTVTests.swift */,
+				D53999DE1E63BF1100C63630 /* Utils */,
 				D5A2C9931E2ADE2B0071396A /* Info.plist */,
-				D5C77C931E5E021900A9079D /* PlayerViewControllerTests.swift */,
 			);
 			path = MyTVTests;
 			sourceTree = "<group>";
@@ -484,8 +517,11 @@
 				D57439C81E611CC100E62F0C /* AtresmediaRequests.swift in Sources */,
 				D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */,
 				D55CEEDA1E6092AE0067C506 /* Live+Channels.swift in Sources */,
+				D53999D81E63A2FE00C63630 /* RTVEAPI.swift in Sources */,
+				D53999DA1E63A38700C63630 /* RTVERequests.swift in Sources */,
 				D5A2C9821E2ADE2B0071396A /* MainViewController.swift in Sources */,
 				D5A2C9801E2ADE2B0071396A /* AppDelegate.swift in Sources */,
+				D53999DD1E63BC2D00C63630 /* Utils.swift in Sources */,
 				D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */,
 				D5658F421E5E7C85009C18CB /* Tile.swift in Sources */,
 				D55CEED81E6092890067C506 /* Live.swift in Sources */,
@@ -493,6 +529,7 @@
 				D57439C31E60C34D00E62F0C /* Section.swift in Sources */,
 				D5C77C921E5E020900A9079D /* PlayerViewController.swift in Sources */,
 				D5C99D9C1E626F3200D22953 /* AtresmediaHandler.swift in Sources */,
+				D53999E21E63CC2100C63630 /* RTVEHandler.swift in Sources */,
 				D55CEED61E5FBA190067C506 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,8 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A2C9921E2ADE2B0071396A /* MyTVTests.swift in Sources */,
-				D5C77C941E5E021900A9079D /* PlayerViewControllerTests.swift in Sources */,
+				D53999E01E63BF2A00C63630 /* UtilsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
