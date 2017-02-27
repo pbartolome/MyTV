@@ -58,11 +58,8 @@ struct AtresmediaRequests {
 
     private static func createtoken(contentPk: String, completion: @escaping (String) -> Void) {
         time { result in
-            let time = String(result + 30)
-            let data = contentPk.appending(time)
-            let key = "b2zN:Pzf:>WTiC=j$;_e!D.L"
-            let hash = HMAC(algorithm: .md5, key: key).update(string: data)!.final()
-            completion("\(contentPk)|\(time)|\(hexString(fromArray: hash))")
+            let hash = Helpers.createToken(contentPk: contentPk, timestamp: result, delay: 30)
+            completion("\(contentPk)|\(time)|\(hash))")
         }
     }
 
@@ -73,5 +70,18 @@ struct AtresmediaRequests {
             }
         }
     }
+}
 
+extension AtresmediaRequests {
+
+    struct Helpers {
+        
+        static func createToken(contentPk: String, timestamp: Int, delay: Int) -> String {
+            let time = String(timestamp + delay)
+            let data = contentPk.appending(time)
+            let key = "b2zN:Pzf:>WTiC=j$;_e!D.L"
+            let hash = HMAC(algorithm: .md5, key: key).update(string: data)!.final()
+            return hexString(fromArray: hash)
+        }
+    }
 }

@@ -13,6 +13,8 @@
 		D53999DD1E63BC2D00C63630 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999DC1E63BC2D00C63630 /* Utils.swift */; };
 		D53999E01E63BF2A00C63630 /* UtilsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999DF1E63BF2A00C63630 /* UtilsTest.swift */; };
 		D53999E21E63CC2100C63630 /* RTVEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53999E11E63CC2100C63630 /* RTVEHandler.swift */; };
+		D55587311E63E3B400122B96 /* AtresMediaRequestsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55587301E63E3B400122B96 /* AtresMediaRequestsTest.swift */; };
+		D55587341E63E47A00122B96 /* RTVERequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55587331E63E47A00122B96 /* RTVERequestsTests.swift */; };
 		D55B8D301E612BC80027D505 /* AtresmediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */; };
 		D55CEED61E5FBA190067C506 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED51E5FBA190067C506 /* Constants.swift */; };
 		D55CEED81E6092890067C506 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55CEED71E6092890067C506 /* Live.swift */; };
@@ -59,6 +61,8 @@
 		D53999DC1E63BC2D00C63630 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Utils/Utils.swift; sourceTree = "<group>"; };
 		D53999DF1E63BF2A00C63630 /* UtilsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilsTest.swift; path = Utils/UtilsTest.swift; sourceTree = "<group>"; };
 		D53999E11E63CC2100C63630 /* RTVEHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVEHandler.swift; path = RTVE/RTVEHandler.swift; sourceTree = "<group>"; };
+		D55587301E63E3B400122B96 /* AtresMediaRequestsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresMediaRequestsTest.swift; path = Providers/A3M/AtresMediaRequestsTest.swift; sourceTree = "<group>"; };
+		D55587331E63E47A00122B96 /* RTVERequestsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RTVERequestsTests.swift; path = Providers/RTVE/RTVERequestsTests.swift; sourceTree = "<group>"; };
 		D55B8D2F1E612BC80027D505 /* AtresmediaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AtresmediaAPI.swift; path = A3M/AtresmediaAPI.swift; sourceTree = "<group>"; };
 		D55CEED51E5FBA190067C506 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D55CEED71E6092890067C506 /* Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
@@ -171,6 +175,31 @@
 			name = RTVE;
 			sourceTree = "<group>";
 		};
+		D555872E1E63E38D00122B96 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				D55587321E63E45B00122B96 /* RTVE */,
+				D555872F1E63E39500122B96 /* A3M */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		D555872F1E63E39500122B96 /* A3M */ = {
+			isa = PBXGroup;
+			children = (
+				D55587301E63E3B400122B96 /* AtresMediaRequestsTest.swift */,
+			);
+			name = A3M;
+			sourceTree = "<group>";
+		};
+		D55587321E63E45B00122B96 /* RTVE */ = {
+			isa = PBXGroup;
+			children = (
+				D55587331E63E47A00122B96 /* RTVERequestsTests.swift */,
+			);
+			name = RTVE;
+			sourceTree = "<group>";
+		};
 		D5658F371E5E6EC1009C18CB /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +282,7 @@
 		D5A2C9901E2ADE2B0071396A /* MyTVTests */ = {
 			isa = PBXGroup;
 			children = (
+				D555872E1E63E38D00122B96 /* Providers */,
 				D53999DE1E63BF1100C63630 /* Utils */,
 				D5A2C9931E2ADE2B0071396A /* Info.plist */,
 			);
@@ -538,6 +568,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55587311E63E3B400122B96 /* AtresMediaRequestsTest.swift in Sources */,
+				D55587341E63E47A00122B96 /* RTVERequestsTests.swift in Sources */,
 				D53999E01E63BF2A00C63630 /* UtilsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
