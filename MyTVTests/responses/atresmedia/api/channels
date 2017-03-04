@@ -1,0 +1,634 @@
+[
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1289197",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Monforte de Lemos"
+  },
+  {
+    "activo": "0",
+    "key": "696607",
+    "smartTV": "0",
+    "value": "Onda Cero Segovia"
+  },
+  {
+    "activo": "0",
+    "key": "167330",
+    "smartTV": "0",
+    "value": "Onda Cero Castellón"
+  },
+  {
+    "activo": "0",
+    "key": "150866",
+    "smartTV": "0",
+    "value": "Onda Cero Navarra"
+  },
+  {
+    "activo": "0",
+    "key": "172348",
+    "smartTV": "0",
+    "value": "Onda Cero Lleida"
+  },
+  {
+    "activo": "0",
+    "key": "148326",
+    "smartTV": "0",
+    "value": "Onda Cero Andalucía"
+  },
+  {
+    "activo": "0",
+    "key": "167431",
+    "smartTV": "0",
+    "value": "Onda Cero Alcalá de Henares"
+  },
+  {
+    "activo": "0",
+    "key": "167419",
+    "smartTV": "0",
+    "value": "Onda Cero Cuenca"
+  },
+  {
+    "activo": "0",
+    "key": "167409",
+    "smartTV": "0",
+    "value": "Onda Cero Almería"
+  },
+  {
+    "activo": "0",
+    "key": "444142",
+    "smartTV": "0",
+    "value": "Onda Cero Menorca"
+  },
+  {
+    "activo": "0",
+    "key": "167418",
+    "smartTV": "0",
+    "value": "Onda Cero Teruel"
+  },
+  {
+    "key": "999",
+    "smartTV": "0",
+    "value": "Antena_3"
+  },
+  {
+    "activo": "0",
+    "key": "167422",
+    "smartTV": "0",
+    "value": "Onda Cero Salamanca"
+  },
+  {
+    "activo": "1",
+    "b": "45",
+    "g": "222",
+    "key": "65",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "255",
+    "smartTV": "0",
+    "value": "Antena.Nitro"
+  },
+  {
+    "activo": "0",
+    "key": "167424",
+    "smartTV": "0",
+    "value": "Onda Cero Tarragona"
+  },
+  {
+    "activo": "0",
+    "key": "150718",
+    "smartTV": "0",
+    "value": "Onda Cero La Rioja"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "138",
+    "key": "38",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "240",
+    "smartTV": "0",
+    "value": "Antena 3"
+  },
+  {
+    "activo": "1",
+    "key": "37",
+    "smartTV": "0",
+    "value": "Antena 3 Internacional"
+  },
+  {
+    "activo": "0",
+    "key": "150280",
+    "smartTV": "0",
+    "value": "Onda Cero Cantabria"
+  },
+  {
+    "activo": "0",
+    "key": "167411",
+    "smartTV": "0",
+    "value": "Onda Cero Córdoba"
+  },
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1438711",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Motril"
+  },
+  {
+    "activo": "1",
+    "key": "835801",
+    "smartTV": "0",
+    "value": "Melodía FM"
+  },
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1386248",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Yecla"
+  },
+  {
+    "activo": "0",
+    "key": "167421",
+    "smartTV": "0",
+    "value": "Onda Cero Palencia"
+  },
+  {
+    "activo": "0",
+    "key": "150570",
+    "smartTV": "0",
+    "value": "Onda Cero Galicia"
+  },
+  {
+    "activo": "0",
+    "key": "148487",
+    "smartTV": "0",
+    "value": "Onda Cero Extremadura"
+  },
+  {
+    "activo": "1",
+    "b": "11",
+    "g": "0",
+    "key": "919",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "219",
+    "smartTV": "0",
+    "value": "MEGA"
+  },
+  {
+    "activo": "0",
+    "key": "172347",
+    "smartTV": "0",
+    "value": "Onda cero Elche"
+  },
+  {
+    "activo": "0",
+    "key": "167414",
+    "smartTV": "0",
+    "value": "Onda Cero Jaén"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "189",
+    "key": "915",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "63",
+    "smartTV": "0",
+    "value": "Sexta"
+  },
+  {
+    "activo": "0",
+    "key": "172346",
+    "smartTV": "0",
+    "value": "Onda cero Albacete"
+  },
+  {
+    "activo": "0",
+    "key": "167430",
+    "smartTV": "0",
+    "value": "Onda Cero Ibiza"
+  },
+  {
+    "activo": "0",
+    "key": "167333",
+    "smartTV": "0",
+    "value": "Onda Cero Gijón"
+  },
+  {
+    "activo": "0",
+    "key": "369567",
+    "smartTV": "0",
+    "value": "Onda Cero Ciudad Real"
+  },
+  {
+    "activo": "1",
+    "b": "41",
+    "g": "114",
+    "key": "139046",
+    "path": "http://servicios.atresplayer.com/static/imgs/channels",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero"
+  },
+  {
+    "activo": "0",
+    "key": "167416",
+    "smartTV": "0",
+    "value": "Onda Cero Málaga"
+  },
+  {
+    "activo": "0",
+    "key": "369564",
+    "smartTV": "0",
+    "value": "Onda Cero Sagunto"
+  },
+  {
+    "activo": "0",
+    "key": "150496",
+    "smartTV": "0",
+    "value": "Onda Cero Valencia"
+  },
+  {
+    "activo": "0",
+    "key": "512273",
+    "smartTV": "0",
+    "value": "Onda Cero Guadalajara"
+  },
+  {
+    "activo": "0",
+    "key": "167425",
+    "smartTV": "0",
+    "value": "Onda Cero Vigo"
+  },
+  {
+    "activo": "0",
+    "key": "167426",
+    "smartTV": "0",
+    "value": "Onda Cero Lugo"
+  },
+  {
+    "activo": "0",
+    "key": "167420",
+    "smartTV": "0",
+    "value": "Onda Cero Talavera"
+  },
+  {
+    "activo": "0",
+    "key": "156106",
+    "smartTV": "0",
+    "value": "Onda Cero Castilla la Mancha"
+  },
+  {
+    "key": "67",
+    "smartTV": "0",
+    "value": "A3 PREMIUM"
+  },
+  {
+    "activo": "1",
+    "b": "116",
+    "g": "43",
+    "key": "36",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "238",
+    "smartTV": "0",
+    "value": "Antena.Nova"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "54",
+    "key": "2000000",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "254",
+    "smartTV": "0",
+    "value": "AtresPlayer"
+  },
+  {
+    "activo": "0",
+    "key": "167331",
+    "smartTV": "0",
+    "value": "Onda Cero Alicante"
+  },
+  {
+    "activo": "0",
+    "key": "620799",
+    "smartTV": "0",
+    "value": "Onda Cero Vega Baja"
+  },
+  {
+    "activo": "0",
+    "key": "167417",
+    "smartTV": "0",
+    "value": "Onda Cero Huesca"
+  },
+  {
+    "activo": "1",
+    "key": "917",
+    "smartTV": "0",
+    "value": "Sexta3"
+  },
+  {
+    "activo": "0",
+    "key": "172349",
+    "smartTV": "0",
+    "value": "Onda cero Mallorca"
+  },
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1429208",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Radioestadio Europa League"
+  },
+  {
+    "activo": "0",
+    "key": "599065",
+    "smartTV": "0",
+    "value": "Onda Cero Badajoz"
+  },
+  {
+    "activo": "0",
+    "key": "148294",
+    "smartTV": "0",
+    "value": "Onda Cero Cataluña"
+  },
+  {
+    "activo": "0",
+    "key": "150940",
+    "smartTV": "0",
+    "value": "Onda Cero País Vasco"
+  },
+  {
+    "activo": "1",
+    "key": "99",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "smartTV": "0",
+    "value": "A3S Internacional"
+  },
+  {
+    "activo": "0",
+    "key": "151014",
+    "smartTV": "0",
+    "value": "Onda Cero Melilla"
+  },
+  {
+    "activo": "0",
+    "key": "150351",
+    "smartTV": "0",
+    "value": "Onda Cero Castilla y León"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "0",
+    "key": "1059848",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Alcázar de San Juan"
+  },
+  {
+    "activo": "0",
+    "key": "484230",
+    "smartTV": "0",
+    "value": "Onda Cero Marbella"
+  },
+  {
+    "activo": "0",
+    "key": "369568",
+    "smartTV": "0",
+    "value": "Onda Cero Torrelavega"
+  },
+  {
+    "activo": "0",
+    "key": "167423",
+    "smartTV": "0",
+    "value": "Onda Cero Girona"
+  },
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1367682",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Cáceres"
+  },
+  {
+    "activo": "0",
+    "key": "150138",
+    "smartTV": "0",
+    "value": "Onda Cero Asturias"
+  },
+  {
+    "activo": "0",
+    "key": "167433",
+    "smartTV": "0",
+    "value": "Onda Cero Vitoria"
+  },
+  {
+    "activo": "0",
+    "key": "167432",
+    "smartTV": "0",
+    "value": "Onda Cero San Sebastián"
+  },
+  {
+    "activo": "1",
+    "key": "3000000",
+    "smartTV": "0",
+    "value": "F1"
+  },
+  {
+    "activo": "0",
+    "b": "0",
+    "g": "0",
+    "key": "1235851",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Marina Baixa"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "102",
+    "key": "164186",
+    "path": "http://servicios.atresplayer.com/static/imgs/channels",
+    "r": "255",
+    "smartTV": "0",
+    "value": "EuropaFM"
+  },
+  {
+    "activo": "0",
+    "key": "150209",
+    "smartTV": "0",
+    "value": "Onda Cero Canarias"
+  },
+  {
+    "activo": "0",
+    "key": "167427",
+    "smartTV": "0",
+    "value": "Onda Cero Santiago de Compostela"
+  },
+  {
+    "activo": "1",
+    "b": "157",
+    "g": "90",
+    "key": "135",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "16",
+    "smartTV": "1",
+    "value": "Xplora Internet"
+  },
+  {
+    "activo": "0",
+    "key": "167429",
+    "smartTV": "0",
+    "value": "Onda Cero Pontevedra"
+  },
+  {
+    "activo": "0",
+    "key": "150792",
+    "smartTV": "0",
+    "value": "Onda Cero Murcia"
+  },
+  {
+    "activo": "0",
+    "key": "167412",
+    "smartTV": "0",
+    "value": "Onda Cero Granada"
+  },
+  {
+    "activo": "0",
+    "key": "167410",
+    "smartTV": "0",
+    "value": "Onda Cero Cádiz"
+  },
+  {
+    "activo": "0",
+    "key": "150644",
+    "smartTV": "0",
+    "value": "Onda Cero Baleares"
+  },
+  {
+    "activo": "0",
+    "key": "150422",
+    "smartTV": "0",
+    "value": "Onda Cero Ceuta"
+  },
+  {
+    "activo": "0",
+    "key": "148946",
+    "smartTV": "0",
+    "value": "Onda Cero Aragón"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "0",
+    "key": "1059849",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Valdepeñas"
+  },
+  {
+    "activo": "0",
+    "key": "172351",
+    "smartTV": "0",
+    "value": "Onda cero Vilanova"
+  },
+  {
+    "activo": "1",
+    "b": "35",
+    "g": "200",
+    "key": "918",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "229",
+    "smartTV": "0",
+    "value": "Antena.Neox"
+  },
+  {
+    "activo": "0",
+    "key": "369565",
+    "smartTV": "0",
+    "value": "Onda Cero Cartagena"
+  },
+  {
+    "activo": "0",
+    "key": "167428",
+    "smartTV": "0",
+    "value": "Onda Cero Ourense"
+  },
+  {
+    "activo": "0",
+    "key": "167415",
+    "smartTV": "0",
+    "value": "Onda Cero Jeréz de la Fronter"
+  },
+  {
+    "activo": "0",
+    "key": "167413",
+    "smartTV": "0",
+    "value": "Onda Cero Huelva"
+  },
+  {
+    "activo": "0",
+    "key": "167332",
+    "smartTV": "0",
+    "value": "Onda Cero Oviedo"
+  },
+  {
+    "activo": "0",
+    "key": "369566",
+    "smartTV": "0",
+    "value": "Onda Cero Zamora"
+  },
+  {
+    "activo": "0",
+    "b": "157",
+    "g": "90",
+    "key": "916",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "16",
+    "smartTV": "0",
+    "value": "Xplora"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "70",
+    "key": "920",
+    "path": "http://www.atresplayer.com/static/imgs/channels",
+    "r": "254",
+    "smartTV": "0",
+    "value": "AtreSeries"
+  },
+  {
+    "activo": "1",
+    "b": "0",
+    "g": "0",
+    "key": "1117828",
+    "r": "0",
+    "smartTV": "0",
+    "value": "Onda Cero Algeciras"
+  },
+  {
+    "activo": "0",
+    "key": "678859",
+    "smartTV": "0",
+    "value": "Onda Cero León"
+  },
+  {
+    "activo": "0",
+    "key": "212405",
+    "smartTV": "0",
+    "value": "Onda Cero Alzira"
+  }
+]
