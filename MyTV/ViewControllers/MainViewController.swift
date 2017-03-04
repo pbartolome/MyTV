@@ -10,6 +10,9 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
+    private let ATRESMEDIA_USER = ""
+    private let ATRESMEDIA_PASSWORD = ""
+
     var sections = [Section]()
 
     override func viewDidLoad() {
@@ -17,8 +20,41 @@ class MainViewController: UITableViewController {
 
         let nib = UINib(nibName: TileRowCollection.reuseIdentifier, bundle: Bundle.main)
         tableView.register(nib, forCellReuseIdentifier: TileRowCollection.reuseIdentifier)
+    }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        sections = []
+        loadLiveTV()
+        loadAtresmedia()
+        loadRTVE()
+    }
 
+    func loadLiveTV() {
+        LiveRequests.liveChannels { [weak self] section in
+            //TODO change return a Section
+            let section = Section(title: section.title, tiles: section.tiles)
+            self?.sections.insert(section, at: 0)
+            self?.tableView.reloadData()
+        }
+    }
+
+    func loadAtresmedia() {
+        AtresmediaRequests.createSession(username: ATRESMEDIA_USER, password: ATRESMEDIA_PASSWORD) { _ in
+            AtresmediaRequests.highlights(completion: { [weak self] highlights in
+                let tiles: [Tile] = highlights.items.flatMap { $0.episode }
+                let highlightSection = Section(title: "Atresmedia Destacados", tiles: tiles)
+                self?.sections.append(highlightSection)
+                self?.tableView.reloadData()
+            })
+        }
+    }
+
+    func loadRTVE() {
+        RTVERequests.highlights { highlights in
+            self.sections.append(Section(title: "RTVE Destacados", tiles: highlights.items))
+            self.tableView.reloadData()
+        }
     }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
