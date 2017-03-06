@@ -20,10 +20,10 @@ class MainViewController: UITableViewController {
 
         let nib = UINib(nibName: TileRowCollection.reuseIdentifier, bundle: Bundle.main)
         tableView.register(nib, forCellReuseIdentifier: TileRowCollection.reuseIdentifier)
+        reloadSections()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    func reloadSections() {
         sections = []
         loadLiveTV()
         loadAtresmedia()
