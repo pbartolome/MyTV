@@ -13,7 +13,7 @@ import IDZSwiftCommonCrypto
 
 struct RTVEURL {
     static let highlights = "http://www.rtve.es/alacarta/tve/"
-    static let baseURL = "http://www.rtve.es/"
+    static let baseURL = "http://www.rtve.es"
     static let ztnrRes = "http://ztnr.rtve.es/ztnr/res/"
     static let secret = arrayFrom(string: "yeL&daD3")
 }
@@ -43,13 +43,14 @@ struct RTVERequests {
                 return
             }
 
-            guard let assetID = doc.xpath("//div[@class='VideoContainer f16x9']").first?["data-assetid"] else {
-                return
+            if let assetID = doc.xpath("//div[@class='VideoContainer f16x9']").first?["data-assetid"] {
+                videoSecret(episodeCode: Helpers.createEpisodeCode(assetID: assetID), completion: { url in
+                    completion(url)
+                })
+            } else if let selectedDocURL = doc.xpath("//div[@id='doc_content']/div[@class='active']/div/a").first?["href"] {
+                //Docs have a intermediate website
+                videoURL(websiteURL: selectedDocURL, completion: completion)
             }
-
-            videoSecret(episodeCode: Helpers.createEpisodeCode(assetID: assetID), completion: { url in
-                completion(url)
-            })
         }
     }
 
@@ -64,8 +65,11 @@ struct RTVERequests {
             guard let xml = XML(xml: videoXML, encoding: .utf8) else {
                 return
             }
-            guard let url = xml.xpath("//preset[@order='0']/response/url").first?.content else { return }
-            completion(url)
+            guard let url = xml.xpath("//preset[@order='0']/response/url").first?.content else {
+                return
+            }
+
+            completion(Helpers.tokenizedURL(url: url))
         }
     }
 
@@ -114,6 +118,14 @@ extension RTVERequests {
             return text.reduce("") { $0 + String(UnicodeScalar($1)) }
         }
 
-
+        static func tokenizedURL(url: String) -> String {
+            let tokenURL = URL(string: url)
+            guard let query = tokenURL?.query else {
+                return url
+            }
+            let tokens = query.components(separatedBy: "=")
+            let token = "nvb=\(tokens[1])&nva=\(tokens[2])&token=\(tokens[3])"
+            return "http://\(tokenURL!.host!)\(tokenURL!.path)?\(token)"
+        }
     }
 }

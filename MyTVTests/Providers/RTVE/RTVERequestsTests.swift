@@ -29,4 +29,28 @@ class RTVERequestsTests: XCTestCase {
         XCTAssertEqual(RTVERequests.Helpers.decryptEpisodeData(base64data: base64data), expectedXML)
     }
 
+    func testTokenizedURLNoChange() {
+        let url = "http://hlsvod.lvlt.rtve.es/resources/TE_GL13/mp4/5/7/1488935628075.mp4/playlist.m3u8"
+        let tokenized = RTVERequests.Helpers.tokenizedURL(url: url)
+        XCTAssertEqual(tokenized, url)
+    }
+
+    func testTokenizedURLNoChange2() {
+        let url = "http://hlsvod.lvlt.rtve.es/resources/TE_NGVA/mp4/2/5/1489012379652.mp4/playlist.m3u8"
+        let tokenized = RTVERequests.Helpers.tokenizedURL(url: url)
+        XCTAssertEqual(tokenized, url)
+    }
+
+    func testTokenizedURL() {
+        let url = "http://mvodt.lvlt.rtve.es/resources/TE_GLESP/mp4/2/6/1488937297962.mp4?nvb=20170309043504=20170309103504=033db630c0972c981edae"
+        let tokenized = RTVERequests.Helpers.tokenizedURL(url: url)
+        XCTAssertEqual(tokenized, "http://mvodt.lvlt.rtve.es/resources/TE_GLESP/mp4/2/6/1488937297962.mp4?nvb=20170309043504&nva=20170309103504&token=033db630c0972c981edae")
+    }
+
+    func testTokenizedURL2() {
+        let url = "http://mvodt.lvlt.rtve.es/resources/TE_GLESP/mp4/1/4/1473694690941.mp4?nvb=20170309043547=20170309103547=0d1ff41414a8e3b90edcb"
+        let tokenized = RTVERequests.Helpers.tokenizedURL(url: url)
+        XCTAssertEqual(tokenized, "http://mvodt.lvlt.rtve.es/resources/TE_GLESP/mp4/1/4/1473694690941.mp4?nvb=20170309043547&nva=20170309103547&token=0d1ff41414a8e3b90edcb")
+    }
+
 }

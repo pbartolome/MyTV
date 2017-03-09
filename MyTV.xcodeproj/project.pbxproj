@@ -31,8 +31,6 @@
 		D560DF8B1E67D54B00730670 /* get in Resources */ = {isa = PBXBuildFile; fileRef = D560DF7C1E67D54B00730670 /* get */; };
 		D560DF8C1E67D54B00730670 /* getRegionMobile in Resources */ = {isa = PBXBuildFile; fileRef = D560DF7D1E67D54B00730670 /* getRegionMobile */; };
 		D560DF8D1E67D54B00730670 /* rtve-episode.xml in Resources */ = {isa = PBXBuildFile; fileRef = D560DF7F1E67D54B00730670 /* rtve-episode.xml */; };
-		D560DF8E1E67D54B00730670 /* rtve-index.html in Resources */ = {isa = PBXBuildFile; fileRef = D560DF801E67D54B00730670 /* rtve-index.html */; };
-		D560DF8F1E67D54B00730670 /* telediario.html in Resources */ = {isa = PBXBuildFile; fileRef = D560DF811E67D54B00730670 /* telediario.html */; };
 		D5658F391E5E7396009C18CB /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */; };
 		D5658F3B1E5E73BE009C18CB /* TileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */; };
 		D5658F421E5E7C85009C18CB /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5658F411E5E7C85009C18CB /* Tile.swift */; };
@@ -94,8 +92,6 @@
 		D560DF7C1E67D54B00730670 /* get */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get; sourceTree = "<group>"; };
 		D560DF7D1E67D54B00730670 /* getRegionMobile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getRegionMobile; sourceTree = "<group>"; };
 		D560DF7F1E67D54B00730670 /* rtve-episode.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rtve-episode.xml"; sourceTree = "<group>"; };
-		D560DF801E67D54B00730670 /* rtve-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "rtve-index.html"; sourceTree = "<group>"; };
-		D560DF811E67D54B00730670 /* telediario.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = telediario.html; sourceTree = "<group>"; };
 		D5658F381E5E7396009C18CB /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileCollectionViewCell.swift; path = UI/TileCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5658F3A1E5E73BE009C18CB /* TileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TileCollectionViewCell.xib; path = UI/TileCollectionViewCell.xib; sourceTree = "<group>"; };
 		D5658F411E5E7C85009C18CB /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
@@ -379,8 +375,6 @@
 			isa = PBXGroup;
 			children = (
 				D560DF7F1E67D54B00730670 /* rtve-episode.xml */,
-				D560DF801E67D54B00730670 /* rtve-index.html */,
-				D560DF811E67D54B00730670 /* telediario.html */,
 			);
 			path = rtve;
 			sourceTree = "<group>";
@@ -627,10 +621,8 @@
 				D560DF8A1E67D54B00730670 /* ios.json in Resources */,
 				D560DF891E67D54B00730670 /* 20161217-EPISODE-00004-false%7c1484376342%7ca56629ac2788830f24967fa74dcef888 in Resources */,
 				D560DF881E67D54B00730670 /* highlights in Resources */,
-				D560DF8F1E67D54B00730670 /* telediario.html in Resources */,
 				D560DF8D1E67D54B00730670 /* rtve-episode.xml in Resources */,
 				D560DF8C1E67D54B00730670 /* getRegionMobile in Resources */,
-				D560DF8E1E67D54B00730670 /* rtve-index.html in Resources */,
 				D560DF831E67D54B00730670 /* channels in Resources */,
 				D560DF871E67D54B00730670 /* 170002352 in Resources */,
 				D560DF821E67D54B00730670 /* time in Resources */,
